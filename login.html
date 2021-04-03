@@ -15,4 +15,15 @@
         <button name='btnLogin'>Login</button>
     </div>
 </body>
+<script type="text/javascript">
+    var username = document.getElementsByName("txtUsername")[0].value;
+    var password = document.getElementsByName("txtPassword")[0].value;
+    if(username=="admin" && password=="admin"){
+        alert("Đăng nhập thành công");
+       
+    }
+    else{
+        alert("Sai tài khoản hoặc mật khẩu");
+    }
+    </script>
 </html>
